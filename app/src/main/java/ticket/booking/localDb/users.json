@@ -1,0 +1,50 @@
+[
+  {
+    "user_id": "121",
+    "user_name": "Samrat Saha",
+    "password": "1234",
+    "hashed_password": "samrat1234",
+    "tickets_booked": [
+      {
+        "date_of_travel": "2025-10-14T16:27:00Z",
+        "destination_station": "Delhi",
+        "source_station": "Kolkata",
+        "ticket_id": "012347",
+        "train": {
+      [
+        {
+          "train_id": "12340A",
+          "train_no": "7527214",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "stations": ["kolkata", "bihar", "lucknow", "delhi"],
+          "station_times": {
+            "kolkata": "20:10:00",
+            "bihar": "08:10:00",
+            "lucknow": "15:10:00",
+            "delhi": "22:30:00"
+          }
+        },
+        {
+          "train_id": "98765B",
+          "train_no": "1234567",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "stations": ["kolkata", "pune", "chennai"],
+          "station_times": {
+            "kolkata": "10:00:00",
+            "pune": "13:00:00",
+            "chennai": "21:00:00"
+          }
+        }
+
+      ]
+    ]
